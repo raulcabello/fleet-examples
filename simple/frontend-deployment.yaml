@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontenda3
+  name: frontenda32
 spec:
   selector:
     matchLabels:
