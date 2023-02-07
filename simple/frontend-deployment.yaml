@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontenddev1
+  name: frontenddev11
 spec:
   selector:
     matchLabels:
