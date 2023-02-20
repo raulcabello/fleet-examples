@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: redis-slave
+  annotations:
+    helm.sh/resource-policy: keep
 spec:
   selector:
     matchLabels:
