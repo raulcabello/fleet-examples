@@ -2,7 +2,7 @@ kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
   # Any name can be used here
-  name: dev
+  name: dev-repo
   namespace: fleet-local
 spec:
   repo: https://github.com/raulcabello/fleet-examples
