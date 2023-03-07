@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: frontendew
   finalizers:
-  - test
+  - kubernetes
 spec:
   selector:
     matchLabels:
