@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: frontend1
+  name: frontend12
   labels:
     app: guestbook
     tier: frontend
