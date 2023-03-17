@@ -27,8 +27,8 @@ helm:
   # is less that or equal to zero, we will not wait in Helm
   timeoutSeconds: 60
   
-  waitForJob: true
+  waitForJob: false
 
   # Custom values that will be passed as values.yaml to the installation
   values:
-    replicas: 3
+    replicas: 5
